@@ -30,7 +30,7 @@ function BlogPost3() {
           <p className="mt-0.5 opacity-50 sm:mt-0">Nuevo Post</p>
         </div>
         <div className='mt-[4rem] mx-auto max-w-3xl mb-[4rem]'>
-          <h3 class="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
+          <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
             Conoce los beneficios de comprar con tu crédito Infonavit.
 
           </h3>

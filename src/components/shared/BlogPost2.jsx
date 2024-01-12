@@ -30,11 +30,11 @@ function BlogPost2() {
         </div>
 
         <div className='mt-[4rem] mx-auto max-w-3xl mb-[4rem] '>
-          <h3 class="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
+          <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
             Aplica para cualquier tipo de crédito.
           </h3>
 
-          <ul class="mt-4 ml-4 text-gray-500 list-disc list-inside">
+          <ul className="mt-4 ml-4 text-gray-500 list-disc list-inside">
             <li>Financiamientos considerados.</li> <br />
             <li>Compra de vivienda nueva o existente. </li>     <br />
             <li>Adquisición de terreno.</li>     <br />
@@ -44,10 +44,10 @@ function BlogPost2() {
             <li> Pago de un crédito hipotecario bancario.</li>
           </ul>
 
-          <h3 class="mt-8 text-lg font-bold text-gray-900 sm:text-xl">
+          <h3 className="mt-8 text-lg font-bold text-gray-900 sm:text-xl">
             ¿Cuáles son los requisitos?
           </h3>
-          <ul class="mt-4 ml-4 text-gray-500 list-disc list-inside">
+          <ul className="mt-4 ml-4 text-gray-500 list-disc list-inside">
             <li>Haber liquidado el crédito anterior (sin importar que no se haya liberado la garantía).
             </li> <br />
             <li>No haber tenido penalizaciones durante la vigencia del financiamiento previo</li> <br />
@@ -55,10 +55,8 @@ function BlogPost2() {
             <li>No esperes mas e invierte nuevamente en tu patrimonio, ingresa al portal de Infonavit y solicita tu precalificación.   <Link className="hover:text-blue-500 text-gray-900" to='https://micuenta.infonavit.org.mx/'> https://micuenta.infonavit.org.mx <CiShare1 className='flex' /></Link> </li> <br />
 
           </ul>
-          {/* <p class="mt-4 ml-4 max-w-lg text-gray-700">
-          Realiza el cambio antes de terminar el año y evita aumentos.
-        </p> */}
-          <p class="mt-4  ml-4 max-w-lg text-gray-700 text-xs">
+          
+          <p className="mt-4  ml-4 max-w-lg text-gray-700 text-xs">
             Infonavit, (2023, 12 octubre). Solicita con Infonavit crédito subsecuente.
 
           </p>

@@ -24,11 +24,11 @@ function BlogPost1() {
           <p className="mt-0.5 opacity-50 sm:mt-0">Nuevo Post</p>
         </div>
         <div className='mt-[4rem] mx-auto max-w-3xl mb-[4rem]'>
-        <h3 class="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
+        <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
           Conoce los beneficios de convertir tu crédito de VSM a pesos
         </h3>
 
-        <ul class="mt-4 ml-4 text-gray-500 list-disc list-inside">
+        <ul className="mt-4 ml-4 text-gray-500 list-disc list-inside">
           <li>Mensualidades y saldos fijos durante todo el plazo del crédito, sin incrementos anuales.</li> <br />
           <li>Certidumbre para que las y los trabajadores puedan planear su economía familiar.</li>     <br />
           <li>Tasa de interés fija de 1.0% a 10.45%, dependiendo tu nivel de ingreso.</li>     <br />
@@ -38,11 +38,11 @@ function BlogPost1() {
             ventanilla bancaria.</li>
         </ul>
 
-        <h3 class="mt-8 text-lg font-bold text-gray-900 sm:text-xl">
+        <h3 className="mt-8 text-lg font-bold text-gray-900 sm:text-xl">
           Sigue los siguientes pasos y realiza el tramite:
 
         </h3>
-        <ul class="mt-4 ml-4 text-gray-500 list-disc list-inside">
+        <ul className="mt-4 ml-4 text-gray-500 list-disc list-inside">
           <li>Entra a Mi Cuenta Infonavit micuenta.infonavit.org.mx
           </li> <br />
           <li>Elige la pestaña Mi Crédito y luego Responsabilidad Compartida.</li> <br />
@@ -50,10 +50,10 @@ function BlogPost1() {
           <li>Revisa y compara las distintas opciones de conversión que ofrece el programa.</li> <br />
           <li>Confirma el trámite y guarda la Carta de Bienvenida y la Carta Modificatoria de Condiciones Financieras, con el monto de la nueva mensualidad.</li>
         </ul>
-        <p class="mt-4 ml-4 max-w-lg text-gray-700">
+        <p className="mt-4 ml-4 max-w-lg text-gray-700">
           Realiza el cambio antes de terminar el año y evita aumentos.
         </p>
-        <p class="mt-4  ml-4 max-w-lg text-gray-700 text-xs">
+        <p className="mt-4  ml-4 max-w-lg text-gray-700 text-xs">
           Infonavit, (2023, 12 octubre). Cambio de crédito VSM a pesos.
         </p>
       </div>

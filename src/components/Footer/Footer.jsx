@@ -122,14 +122,14 @@ const Footer = () => {
             </Link>
           </li>
         </ul>
-        <div class="text-center mt-8 md:mt-12">
+        <div className="text-center mt-8 md:mt-12">
       <Link
         to="/Aviso-de-privacidad"
-        class="text-gray-100 hover:text-white uppercase text-lg sm:text-base cursor-pointer"
+        className="text-gray-100 hover:text-white uppercase text-lg sm:text-base cursor-pointer"
       >
         Aviso de privacidad
       </Link>
-      <p class="text-sm text-gray-100 mt-2">
+      <p className="text-sm text-gray-100 mt-2">
         COPYRIGHT © 2023. TODOS LOS DERECHOS RESERVADOS.
       </p>
     </div>
