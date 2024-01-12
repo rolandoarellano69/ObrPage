@@ -66,11 +66,11 @@ function ProjectAbout() {
           <div className=" flex flex-col gap-y-2 items-center justify-center pr-10">
             {/* <p className="text-sm">Preventa desde</p> */}
             <span className="font-semibold text-[19px] text-gray-200">Haz clic para</span>
-            <a href="https://residencialaureo.com/inicio">
+            <Link to="https://residencialaureo.com/inicio">
               <button className="bg-gray-100 font-bold text-gray-500 border-2 border-gray-600 rounded-3xl px-10 py-3 transition duration-300 ease-in-out">
                 Conocer más
               </button>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -93,11 +93,11 @@ function ProjectAbout() {
           <div className=" flex flex-col gap-y-2 items-center justify-center pr-10">
             {/* <p className="text-sm font-semibold text-gray-200">Preventa desde</p> */}
             <span className="font-semibold text-[19px] text-gray-200">Haz clic para</span>
-            <a href="https://platinumresidencial.com/">
+            <Link to="https://platinumresidencial.com/">
               <button className="bg-gray-100 font-bold text-gray-500 border-2 border-gray-600 rounded-3xl px-10 py-3 transition duration-300 ease-in-out">
                 Conocer más
               </button>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -149,11 +149,11 @@ function ProjectAbout() {
           <div className=" flex flex-col gap-y-2 items-center justify-center pr-10">
             {/* <p className="text-sm font-semibold text-gray-200">Preventa desde</p> */}
             <span className="font-semibold text-[19px] text-gray-200">Haz click para</span>
-            <a href="https://torresdelcolorado.com/">
+            <Link to="https://torresdelcolorado.com/">
               <button className="bg-gray-100 font-bold text-gray-500 border-2 border-gray-600 rounded-3xl px-10 py-3 transition duration-300 ease-in-out">
                 Conocer más
               </button>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

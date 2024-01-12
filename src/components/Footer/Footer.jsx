@@ -26,31 +26,31 @@ const Footer = () => {
 
         <ul className="mt-8 flex flex-wrap justify-center gap-4">
           <li>
-            <Link className="text-gray-200 transition hover:text-gray-700/75" to="/">
+            <Link className="text-gray-200 transition hover:text-gray-300/75" to="/">
               Inicio
             </Link>
           </li>
 
           <li>
-            <Link className="text-gray-200 transition hover:text-gray-700/75" to="/desarrollo">
+            <Link className="text-gray-200 transition hover:text-gray-300/75" to="/desarrollo">
               Desarrollo
             </Link>
           </li>
 
           <li>
-            <Link className="text-gray-200 transition hover:text-gray-700/75" to="/nosotros">
+            <Link className="text-gray-200 transition hover:text-gray-300/75" to="/nosotros">
               Nosotros
             </Link>
           </li>
 
           <li>
-            <Link className="text-gray-200 transition hover:text-gray-700/75" to="/blog">
+            <Link className="text-gray-200 transition hover:text-gray-300/75" to="/blog">
               Blog
             </Link>
           </li>
 
           <li>
-            <Link className="text-gray-200 transition hover:text-gray-700/75" to="/contacto">
+            <Link className="text-gray-200 transition hover:text-gray-300/75" to="/contacto">
               Contacto
             </Link>
           </li>
@@ -122,6 +122,17 @@ const Footer = () => {
             </Link>
           </li>
         </ul>
+        <div class="text-center mt-8 md:mt-12">
+      <Link
+        to="/Aviso-de-privacidad"
+        class="text-gray-100 hover:text-white uppercase text-lg sm:text-base cursor-pointer"
+      >
+        Aviso de privacidad
+      </Link>
+      <p class="text-sm text-gray-100 mt-2">
+        COPYRIGHT © 2023. TODOS LOS DERECHOS RESERVADOS.
+      </p>
+    </div>
       </div>
     </footer>
   )

@@ -45,19 +45,19 @@ function Header() {
           </Link>
         </div>
         <div className='hidden md:flex items-center -translate-x-[4rem] justify-center flex-1 space-x-10 text-gray-100'>
-          <Link className="transition hover:text-gray-700/75" to="/">
+          <Link className="transition hover:text-gray-300/75" to="/">
             Inicio
           </Link>
-          <Link className="transition hover:text-gray-700/75" to="/nosotros">
+          <Link className="transition hover:text-gray-300/75" to="/nosotros">
             Nosotros
           </Link>
-          <Link className="transition hover:text-gray-700/75" to="/desarrollo">
+          <Link className="transition hover:text-gray-300/75" to="/desarrollo">
             Desarrollo
           </Link>
-          <Link className="transition hover:text-gray-700/75" to="/blog">
+          <Link className="transition hover:text-gray-300/75" to="/blog">
             Blog
           </Link>
-          <Link className="transition hover:text-gray-700/75" to="/contacto">
+          <Link className="transition hover:text-gray-300/75" to="/contacto">
             Contacto
           </Link>
         </div>
