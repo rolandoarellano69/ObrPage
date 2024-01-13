@@ -47,7 +47,7 @@ function IconsDesarrollo() {
               transition: { duration: 0.3 },
             }}
             className="bg-white rounded-lg overflow-hidden shadow-md">
-            <Link to={iconDev.hrefn} className="block">
+            <Link target="_blank" to={iconDev.hrefn} className="block">
               <div className="relative overflow-hidden">
                 <img
                   src={iconDev.src}
@@ -62,14 +62,6 @@ function IconsDesarrollo() {
                   />
                 </div>
               </div>
-              {/* <div className="p-4">
-                <h3 className="text-lg font-semibold text-gray-800 mb-2">
-                  {iconDev.title}
-                </h3>
-                <p className="text-sm text-gray-600">
-                  {iconDev.description}
-                </p>
-              </div> */}
             </Link>
           </motion.div>
         ))}

@@ -66,7 +66,7 @@ function ProjectAbout() {
           <div className=" flex flex-col gap-y-2 items-center justify-center pr-10">
             {/* <p className="text-sm">Preventa desde</p> */}
             <span className="font-semibold text-[19px] text-gray-200">Haz clic para</span>
-            <Link to="https://residencialaureo.com/inicio">
+            <Link target="_blank" to="https://residencialaureo.com/inicio">
               <button className="bg-gray-100 font-bold text-gray-500 border-2 border-gray-600 rounded-3xl px-10 py-3 transition duration-300 ease-in-out">
                 Conocer más
               </button>
@@ -93,7 +93,7 @@ function ProjectAbout() {
           <div className=" flex flex-col gap-y-2 items-center justify-center pr-10">
             {/* <p className="text-sm font-semibold text-gray-200">Preventa desde</p> */}
             <span className="font-semibold text-[19px] text-gray-200">Haz clic para</span>
-            <Link to="https://platinumresidencial.com/">
+            <Link target="_blank" to="https://platinumresidencial.com/">
               <button className="bg-gray-100 font-bold text-gray-500 border-2 border-gray-600 rounded-3xl px-10 py-3 transition duration-300 ease-in-out">
                 Conocer más
               </button>
@@ -120,7 +120,7 @@ function ProjectAbout() {
           <div className=" flex flex-col gap-y-2 items-center justify-center pr-10">
             {/* <p className="text-sm font-semibold text-gray-200">Preventa desde</p> */}
             <span className="font-bold text-[19px] text-gray-200">Haz clic para</span>
-            <Link href="https://jaderesidencial.com.mx/">
+            <Link target="_blank" href="https://jaderesidencial.com.mx/">
               <button className="bg-gray-100 font-bold text-gray-500 border-2 border-gray-600 rounded-3xl px-10 py-3 transition duration-300 ease-in-out">
                 Conocer más
               </button>
@@ -149,7 +149,7 @@ function ProjectAbout() {
           <div className=" flex flex-col gap-y-2 items-center justify-center pr-10">
             {/* <p className="text-sm font-semibold text-gray-200">Preventa desde</p> */}
             <span className="font-semibold text-[19px] text-gray-200">Haz click para</span>
-            <Link to="https://torresdelcolorado.com/">
+            <Link target="_blank" to="https://torresdelcolorado.com/">
               <button className="bg-gray-100 font-bold text-gray-500 border-2 border-gray-600 rounded-3xl px-10 py-3 transition duration-300 ease-in-out">
                 Conocer más
               </button>
