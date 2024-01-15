@@ -16,9 +16,9 @@ function Blog() {
               <span className="mb-2 block text-lg font-semibold text-primary">
                 Nuestro Blog
               </span>
-              <h2 className="mb-4 text-3xl font-bold text-gray-900 sm:text-4xl md:text-[40px] text-center">
+              <h1 className="mb-4 text-3xl font-bold text-gray-900 sm:text-4xl md:text-[40px] text-center">
                 Nuestras últimas noticias
-              </h2>
+              </h1>
               <p className="text-base text-body-color dark:text-dark-6">
                 Te compartimos las noticias más relevantes del sector inmobiliario y financiero.
               </p>
@@ -27,13 +27,13 @@ function Blog() {
         </div>
         <div className='-mx-4 flex flex-wrap'>
           <BlogCard
-            date="20 May 2021"
+            date="01 Enero 2024"
             CardTitle="EVITA EL INCREMENTO DE TU DEUDA EN INFONAVIT ESTE 2024"
             CardText="Cada inicio de año, todos los créditos denominados en Veces Salario Mínimo (VSM), registran un incremento ligado al aumento del salario mínimo."
             href="/blog/post-1"
             imagen={BlogPeek1} />
 
-          <BlogCard date="20 May 2021"
+          <BlogCard date="23 Nov 2023"
             CardTitle="CON INFONAVIT YA PUEDES SOLICITAR MAS DE UN FINANCIAMIENTO CON CRÉDITOS SUBSECUENTES."
             CardText="El Instituto del Fondo Nacional de la Vivienda para los Trabajadores (Infonavit) informó mediante un comunicado que eliminó las restricciones que impedían a las personas solicitar mas de un financiamiento. 
           "
@@ -42,7 +42,7 @@ function Blog() {
           />
 
           <BlogCard
-            date="20 May 2021"
+            date="20 Dic 2023"
             CardTitle="¿SABES CUANTO TE PRESTA INFONAVIT?"
             CardText="Podrías estar perdiendo la oportunidad de comprar tu casa."
             imagen={BlogPeek3}

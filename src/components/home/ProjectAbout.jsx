@@ -49,7 +49,7 @@ function ProjectAbout() {
       {/*cards*/}
       <div className=" hidden lg:block relative overflow-hidden shadow-lg">
         <div className=" h-[20vh] md:h-[65vh]">
-          <img src={AureoPeek} alt="Entrada de aureo residencial noche" className='bg-slate-300' />
+          <img src={AureoPeek} alt="Entrada de aureo residencial noche" className='bg-slate-300 w-full' />
 
           <div className="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
             <img src={LogoAureoPeek} alt="Entrada de aureo residencial noche" className='h-28' />
@@ -78,7 +78,7 @@ function ProjectAbout() {
       {/*cards*/}
       <div className="  hidden lg:block relative overflow-hidden shadow-lg">
         <div className=" h-[40vh] md:h-[95vh] w-full">
-          <img src={PlatinumPeek} alt="Entrada de aureo residencial noche" className='bg-slate-400' />
+          <img src={PlatinumPeek} alt="Entrada de aureo residencial noche" className='bg-slate-400 w-full' />
           <div className="absolute top-[5rem] left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
             <img src={LogoPlatinumPeek} alt="Entrada de aureo residencial noche" className='h-48' />
           </div>
@@ -105,7 +105,7 @@ function ProjectAbout() {
       {/*cards*/}
       <div className=" hidden lg:block relative overflow-hidden shadow-lg">
         <div className=" h-[40vh] md:h-[80vh] w-full">
-          <img src={JadePeek} alt="Entrada de aureo residencial noche" className='bg-blue-300' />
+          <img src={JadePeek} alt="Entrada de aureo residencial noche" className='bg-blue-300 w-full' />
           <div className="absolute top-[4rem] left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
             <img src={LogoJadePeek} alt="Entrada de aureo residencial noche" className='h-32' />
           </div>
@@ -132,7 +132,7 @@ function ProjectAbout() {
       {/*cards*/}
       <div className="  hidden lg:block relative overflow-hidden shadow-lg">
         <div className=" h-[40vh] md:h-[90vh] w-full">
-          <img src={TorresPeek} alt="Entrada de aureo residencial noche" className='bg-blue-300' />
+          <img src={TorresPeek} alt="Entrada de aureo residencial noche" className='bg-blue-300 w-full' />
 
           <div className="absolute top-[7rem] left-36 transform -translate-x-1/2 -translate-y-1/2 z-10">
             <img src={LogoTorresPeek} alt="Entrada de aureo residencial noche" className='h-60' />

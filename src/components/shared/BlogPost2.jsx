@@ -10,9 +10,9 @@ function BlogPost2() {
 
       <section className='flex flex-col justify-center items-center p-10 py-6 sm:py-12 mt-[4rem] text-gray-900 bg-white'>
         <div className="mx-auto max-w-3xl text-center mb-[4rem]">
-          <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">
+          <h1 className="text-3xl font-bold text-gray-900 sm:text-4xl">
             CON INFONAVIT YA PUEDES SOLICITAR MAS DE UN FINANCIAMIENTO CON CREDITOS SUBSECUENTES.
-          </h2>
+          </h1>
 
           <p className="mt-4 text-gray-500 sm:text-xl">
             El Instituto del Fondo Nacional de la Vivienda para los Trabajadores (Infonavit) informó mediante un comunicado que eliminó las restricciones que impedían a las personas solicitar mas de un financiamiento.

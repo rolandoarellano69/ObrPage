@@ -7,14 +7,9 @@ function Desarrollo() {
   return (
     <section>
       <div className="relative flex items-center justify-start">
-        <div className='hidden md:block h-[80vh] lg:w-[80hw] '>
+        <div className='hidden md:block h-[80vh'>
             <img src={familiaPeek} alt='Familia Feliz' className=' w-full'/>
-          {/* <Image
-            src="/familia3.jpg"
-            alt="Descripción de la imagen"
-            fill
-            quality={100}
-            className='object-fill translate-y-[6rem] ' /> */}
+  
 
         </div>
       </div>

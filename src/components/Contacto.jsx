@@ -18,10 +18,10 @@ const Contacto = () => {
       <div className="bg-primary w-full h-[6rem]"></div>
       <section className="bg-white py-8">
         <div className="container mx-auto px-2 sm:px-4 lg:px-8">
-          <h2 className="text-2xl font-bold text-center mb-8">Contáctanos</h2>
+          <h1 className="text-2xl font-bold text-center mb-8">Contáctanos</h1>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div >
-              <h3 className="text-lg font-semibold mb-2">Información de Contacto</h3>
+              <h2 className="text-lg font-semibold mb-2">Información de Contacto</h2>
               <ul className="space-y-2 text-gray-600 mb-8">
                 <li className="flex items-center">
                   <FaEnvelope className="mr-2 text-secondary" />

@@ -35,7 +35,7 @@ function IconsDesarrollo() {
     <section>
      <section className="bg-white py-12">
       <div className="text-center mb-8">
-        <h2 className="text-3xl font-bold text-gray-800">Desarrollos</h2>
+        <h1 className="text-3xl font-bold text-gray-800">Desarrollos</h1>
         <p className="text-gray-600">Explora nuestros proyectos</p>
       </div>
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-8">
