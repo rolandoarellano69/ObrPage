@@ -6,22 +6,11 @@ import IconsDesarrollo from './IconsDesarrollo'
 function Desarrollo() {
   return (
     <section>
-      <div className="relative flex items-center justify-start">
-        <div className='hidden md:block h-[80vh'>
+        <div className='hidden md:block h-auto'>
             <img src={familiaPeek} alt='Familia Feliz' className=' w-full'/>
-  
-
         </div>
-      </div>
-      <div className='md:hidden block h-[20vh]'>
-        <img src={familiaMobile} alt='Familia Feliz' className=''/>
-        {/* <Image
-          src="/familiamobile2.jpg"
-          alt="Descripción de la imagen"
-          fill
-          quality={100}
-          // style={{objectFit: 'cover' }}
-          className='object-contain ' /> */}
+      <div className='md:hidden block h-[60vh]'>
+        <img src={familiaMobile} alt='Familia Feliz' className='h-auto w-auto'/>
       </div>
           <IconsDesarrollo />
     </section>

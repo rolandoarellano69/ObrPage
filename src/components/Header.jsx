@@ -33,7 +33,7 @@ function Header() {
 
   return (
     <header className={`fixed w-full top-0 left-0 z-30 ${scrolling ? 'bg-primary' : 'bg-black bg-opacity-30 drop-shadow-lg'}`}>
-      <div className='flex items-center justify-between h-[5rem] md:h-[6rem] max-w-7xl mx-auto px-4 sm:px-6 lg:px-40'>
+      <div className='flex items-center justify-between h-[6rem] md:h-[6rem] max-w-7xl mx-auto px-4 sm:px-6 lg:px-40'>
         <div className='hidden lg:flex items-center -translate-x-[10rem] -translate-y-1 justify-start'>
           <Link to='/'>
             <img className='h-14' src={LogoPeek} alt="Logo" />

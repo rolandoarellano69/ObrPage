@@ -32,9 +32,9 @@ const variants = {
 
 function IconsDesarrollo() {
   return (
-    <section>
-     <section className="bg-white py-12">
-      <div className="text-center mb-8">
+   
+     <section className="mt-8 ">
+      <div className=" text-center mb-8">
         <h1 className="text-3xl font-bold text-gray-800">Desarrollos</h1>
         <p className="text-gray-600">Explora nuestros proyectos</p>
       </div>
@@ -66,7 +66,6 @@ function IconsDesarrollo() {
           </motion.div>
         ))}
       </div>
-    </section>
     </section>
   )
 }

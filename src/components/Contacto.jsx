@@ -5,8 +5,8 @@ import { FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
 
 const Contacto = () => {
   const iframeStyle = {
-    height: '85vh',
-    width: '80%',
+    height: '70vh',
+    width: '400px',
     border: 'none',
   };
   const containerVariants = {
@@ -39,10 +39,8 @@ const Contacto = () => {
               </ul>
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3365.09964691671!2d-116.96327279585806!3d32.496765730287386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9397e65f49e0d%3A0x282eb74e873766!2sObr%20Group%20Oficinas!5e0!3m2!1ses!2smx!4v1705022281674!5m2!1ses!2smx"
-                width="600"
+                width="400"
                 height="450"
-                style={{ border: 0 }}
-                allowFullScreen=""
                 loading="lazy"
               ></iframe>
             </div>
