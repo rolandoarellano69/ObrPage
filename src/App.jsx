@@ -17,7 +17,7 @@ import NoFound from './components/NoFound'
 
 const App = () => {
   return (
-    <Router>
+
       <div className='app '>
         <Header />
         <Routes>
@@ -34,7 +34,7 @@ const App = () => {
         </Routes>
         <Footer />
       </div>
-    </Router>
+
   )
 }
 
