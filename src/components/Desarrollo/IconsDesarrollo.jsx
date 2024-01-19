@@ -22,7 +22,7 @@ const iconsDev = [
   { src: torresPeek, srcIcon: torresLogo, alt: 'Torres Del Colorado', hrefn: 'https://torresdelcolorado.com/' },
   { src: cipresPeek, srcIcon: cipresLogo, alt: 'Cipres Del Bosque', hrefn: 'https://cipresdelbosque.com/' },
   { src: jadePeek, srcIcon: jadeLogo, alt: 'Jade Residencial', hrefn: 'https://jaderesidencial.com.mx/' },
-  { src: almeriaPeek, srcIcon: almeriaLogo, alt: 'Almeria', hrefn: 'https://almeria.com.mx/' },
+  { src: almeriaPeek, srcIcon: almeriaLogo, alt: 'Almeria', hrefn: 'https://almeriaresidencial.com/' },
 ];
 const variants = {
   offscreen: { opacity: 0, y: 50 },

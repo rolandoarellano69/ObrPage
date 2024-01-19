@@ -120,7 +120,7 @@ function ProjectAbout() {
           <div className=" flex flex-col gap-y-2 items-center justify-center pr-10">
             {/* <p className="text-sm font-semibold text-gray-200">Preventa desde</p> */}
             <span className="font-bold text-[19px] text-gray-200">Haz clic para</span>
-            <Link target="_blank" href="https://jaderesidencial.com.mx/">
+            <Link target="_blank" to="https://jaderesidencial.com.mx/">
               <button className="bg-gray-100 font-bold text-gray-500 border-2 border-gray-600 rounded-3xl px-10 py-3 transition duration-300 ease-in-out">
                 Conocer más
               </button>
