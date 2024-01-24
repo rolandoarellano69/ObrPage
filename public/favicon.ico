@@ -2,10 +2,10 @@
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 792 340">
   <defs>
     <style>
-      .cls-1 {
-        fill: #fff;
-        stroke-width: 0px;
-      }
+     path { fill: #000; }
+        @media (prefers-color-scheme: dark) {
+            path { fill: #FFF; }
+        }
     </style>
   </defs>
   <polygon class="cls-1" points="54 307.33 66.25 307.33 149.57 307.33 162.03 307.33 145.77 307.32 54 307.33"/>

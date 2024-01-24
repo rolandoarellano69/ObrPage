@@ -7,10 +7,12 @@ import AureoPeek from '../../assets/images/ACCESO AUREO2 nochr.png'
 import PlatinumPeek from '../../assets/images/ACCESO ENTRADA PLATINUM 4K sin altura.png'
 import JadePeek from '../../assets/images/JADE 4K 4 CASAS.png'
 import TorresPeek from '../../assets/images/el colorado 4k.png'
+import AlmeriaPeek from '../../assets/images/FACHADAS BARCELONA.png'
 import LogoPlatinumPeek from '../../assets/images/logo platinum png-02.png'
 import LogoAureoPeek from '../../assets/images/LOGO-01.png'
 import LogoJadePeek from '../../assets/images/logo jade horizontal-09.png'
 import LogoTorresPeek from '../../assets/images/logo con bandera_Mesa de trabajo 1.png'
+import LogoAlmeriaPeek from '../../assets/images/LOGO ALMERIA-01.png'   
 
 import PlatinumMPeek from '../../assets/images/RESIDENCIALES-06.png'
 import AureoMPeek from '../../assets/images/RESIDENCIALES-07.png'
@@ -142,14 +144,41 @@ function ProjectAbout() {
         <div className="p-8 flex justify-between bg-[#432624] -translate-y-0">
           <div className="flex items-center justify-center p-8">
             <p className="mb-4 text-[20px] font-bold text-gray-200 ">
-              Es un conjunto urbano de departamentos que destaca por su gran conectividad <br /> y cercanía a vialidades principales,<br />
-              parques industriales y centros comerciales.
+              Es un conjunto urbano de departamentos que destaca por su gran conectividad <br /> y cercanía a vialidades principales, parques industriales y centros comerciales.
             </p>
           </div>
           <div className=" flex flex-col gap-y-2 items-center justify-center pr-10">
             {/* <p className="text-sm font-semibold text-gray-200">Preventa desde</p> */}
             <span className="font-semibold text-[19px] text-gray-200">Haz click para</span>
             <Link target="_blank" to="https://torresdelcolorado.com/">
+              <button className="bg-gray-100 font-bold text-gray-500 border-2 border-gray-600 rounded-3xl px-10 py-3 transition duration-300 ease-in-out">
+                Conocer más
+              </button>
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      {/*cards*/}
+      <div className="  hidden lg:block relative overflow-hidden shadow-lg">
+        <div className=" h-[40vh] md:h-[90vh] w-full">
+          <img src={AlmeriaPeek} alt="Entrada de aureo residencial noche" className='bg-blue-300 w-full' />
+
+          <div className="absolute top-[4rem] left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
+            <img src={LogoAlmeriaPeek} alt="Entrada de aureo residencial noche" className='h-28' />
+
+          </div>
+        </div>
+        <div className="p-8 flex justify-between bg-[#0f3a5d] -translate-y-0">
+          <div className="flex items-center justify-center p-8">
+            <p className="mb-4 text-[20px] font-bold text-gray-200 text-pretty  ">
+             Es un desarrollo exclusivo de únicamente 15 casas, ubicado dentro Barcelona Residencial,<br/>una zona de alta plusvalía, con fácil acceso a vialidades principales, centros comerciales y escuelas.
+            </p>
+          </div>
+          <div className=" flex flex-col gap-y-2 items-center justify-center pr-10">
+            {/* <p className="text-sm font-semibold text-gray-200">Preventa desde</p> */}
+            <span className="font-semibold text-[19px] text-gray-200">Haz click para</span>
+            <Link target="_blank" to="https://almeriaresidencial.com/">
               <button className="bg-gray-100 font-bold text-gray-500 border-2 border-gray-600 rounded-3xl px-10 py-3 transition duration-300 ease-in-out">
                 Conocer más
               </button>
