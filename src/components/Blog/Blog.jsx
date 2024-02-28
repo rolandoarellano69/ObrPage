@@ -3,6 +3,8 @@ import BlogCard from './BlogCard'
 import BlogPeek1 from '../../assets/images/1.jpg'
 import BlogPeek2 from '../../assets/images/2.jpg'
 import BlogPeek3 from '../../assets/images/3.jpg'
+import BlogPeek4 from '../../assets/images/agente-cliente-haciendo-trato.webp'
+
 
 
 function Blog() {
@@ -47,10 +49,14 @@ function Blog() {
             CardText="Podrías estar perdiendo la oportunidad de comprar tu casa."
             imagen={BlogPeek3}
             href="/blog/post-3" />
-
-
+            
+            <BlogCard
+            date="27 Feb 2024"
+            CardTitle="INFONAVIT HA ELEVADO EL LÍMITE DE FINANCIAMIENTO HASTA 2.7 MILLONES/2024"
+            CardText="El aumento aplica a todas las líneas de financiamiento que maneja el organismo."
+            imagen={BlogPeek4}
+            href="/blog/post-4" />
         </div>
-        
       </section>
     </section>
   )
