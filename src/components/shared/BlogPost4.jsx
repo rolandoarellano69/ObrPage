@@ -45,14 +45,14 @@ function BlogPost2() {
           <Link to="https://micuenta.infonavit.org.mx/" className="flex mt-4 ml-4 max-w-lg hover:text-blue-700 text-gray-900 text-md">
             Ingresa al portal https://micuenta.infonavit.org.mx/           </Link>
 
-            <ul className="mt-4 ml-4 text-gray-500 list-disc list-inside">
-            <li>Financiamientos considerados.</li> <br />
-            <li>Compra de vivienda nueva o existente. </li>     <br />
-            <li>Adquisición de terreno.</li>     <br />
-            <li> Construcción.</li>
+          <ul className="mt-4 ml-4 text-gray-500 list-disc list-inside">
+            <li>Datos personales: en este apartado se deben llenar los campos con datos como el Número de Seguridad Social (NSS), Clave Única de Registro de Población (CURP) y el Registro Federal de Contribuyentes (RFC).</li> <br />
+            <li>Verifica tu nombre: es un espacio para colocar y validar el nombre del contribuyente </li>     <br />
+            <li>Datos de contactos: se solicitan datos como número de celular y correo electrónico..</li>     <br />
+            <li>Contraseña: se debe colocar la que será la clave para poder acceder posteriormente a la cuenta de Mi Cuenta Infonavit.</li>
             <br />
-            <li>Mejora, ampliación o reparación de vivienda.</li><br />
-            <li> Pago de un crédito hipotecario bancario.</li>
+            <li>Activación de cuenta: para este paso es necesario tener acceso al correo electrónico colocado en el apartado de “datos de contacto” para que se pueda llevar a cabo la activación.</li><br />
+            <li>Confirmación: la última fase consta en verificar que los datos proporcionados están correctos para proceder con la activación.</li>
           </ul>
         </div>
         <Link
